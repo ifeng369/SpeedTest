@@ -5,10 +5,16 @@ mode: rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: 网易云音乐
+  - name: UnblockNeteaseMusic
     type: http
     server: 110.40.58.9
     port: 19090
+proxy-groups:
+  - name: 网易云音乐
+    type: select
+    proxies:
+      - UnblockNeteaseMusic
+      - DIRECT
 rules:
-  - DOMAIN-KEYWORD,music.163.com,网易云音乐
+  - DOMAIN-KEYWORD,music.163.com,UnblockNeteaseMusic
   - MATCH,DIRECT
