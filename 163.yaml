@@ -7,11 +7,11 @@ external-controller: :9090
 proxies:
   - name: 节点1
     type: http
-    server: 121.22.5.178
+    server: cd.frp.one
     port: 19090
   - name: 节点2
     type: http
-    server: 110.40.58.9
+    server: jp.frp.one
     port: 19090
 proxy-groups:
   - name: 网易云音乐
