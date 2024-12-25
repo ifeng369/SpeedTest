@@ -1,49 +1,5 @@
 proxies:
-- name: "\U0001F1FA\U0001F1F8 036026-122520-美国"
-  type: 'vless'
-  server: '188.114.97.171'
-  port: 80
-  uuid: '35323594-9ee2-4f06-ae14-3148b6950621'
-  alterid: 0
-  servername: 'ooao14004.74gwenneth.workers.dev'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: '/fp'
-    headers:
-      host: 'ooao14004.74gwenneth.workers.dev'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 037014-122520-美国"
-  type: 'vless'
-  server: '173.245.49.116'
-  port: 80
-  uuid: 'dc00f1f8-05b2-4bc0-b851-d4dfe5089329'
-  alterid: 0
-  servername: ''
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: '/?ed'
-    headers:
-      host: 'workerr.aasihmin.workers.dev'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F9\U0001F1F7 037503-122520-土耳其"
+- name: "\U0001F1F9\U0001F1F7 037503-122523-土耳其"
   type: 'vless'
   server: '176.98.41.45'
   port: 13509
@@ -65,7 +21,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1EB\U0001F1F7 037849-122520-法国"
+- name: "\U0001F1EB\U0001F1F7 037849-122523-法国"
   type: 'vless'
   server: '51.158.243.62'
   port: 443
@@ -87,7 +43,29 @@ proxies:
     short-id: '42'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 037864-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 037863-122523-德国"
+  type: 'vless'
+  server: '188.245.215.203'
+  port: 101
+  uuid: '01221054-0b45-4525-b83a-548f4026a759'
+  alterid: 0
+  servername: 'www.speedtest.net'
+  network: 'tcp'
+  flow: ''
+  client-fingerprint: 'chrome'
+  skip-cert-verify: true
+  cipher: 
+  tls: true
+  ws-opts:
+    path: ''
+    headers:
+      host: ''
+  reality-opts:
+    public-key: '8mTajmw3Mfksrm8IA9Wb7kahBw8a4TZcOw98c_EN0TU'
+    short-id: '95f9'
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1E9\U0001F1EA 037864-122523-德国"
   type: 'vless'
   server: '142.132.237.159'
   port: 333
@@ -109,7 +87,7 @@ proxies:
     short-id: 'fee425'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038154-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 038154-122523-德国"
   type: 'vless'
   server: '188.245.233.230'
   port: 111
@@ -131,29 +109,7 @@ proxies:
     short-id: '072b02'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038156-122520-德国"
-  type: 'vless'
-  server: '188.245.198.226'
-  port: 564
-  uuid: 'f4cf5881-2770-4106-add0-4fcd9fc3c01f'
-  alterid: 0
-  servername: 'canva.com'
-  network: 'grpc'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: 'HNxUFbdt218ojBsCv9V5rRsJk2rFQLY_8QjaKuIMrys'
-    short-id: '69'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E6\U0001F1EA 038173-122520-阿联酋"
+- name: "\U0001F1E6\U0001F1EA 038173-122523-阿联酋"
   type: 'vless'
   server: '181.215.205.104'
   port: 443
@@ -175,51 +131,7 @@ proxies:
     short-id: '4048A3da'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1F9\U0001F1F7 038177-122520-土耳其"
-  type: 'vless'
-  server: '89.47.113.149'
-  port: 443
-  uuid: '71b60539-19bf-4282-b09f-7596ffc3cc8b'
-  alterid: 0
-  servername: 'apple.com'
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: 'PlJHlfpSGU1qQzfrdjziVEKausAhFZXb4Q0pJZWFCWE'
-    short-id: '4b4a1a3c'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1EE\U0001F1F1 038180-122520-以色列"
-  type: 'vless'
-  server: '195.211.24.243'
-  port: 443
-  uuid: '71b60539-19bf-4282-b09f-7596ffc3cc8b'
-  alterid: 0
-  servername: 'apple.com'
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: '-ALxkpd7Wi7WKs1dXND7yqoYQfJW8d4BctjfXIy0L1M'
-    short-id: 'b5ed878b'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F7\U0001F1FA 038181-122520-俄罗斯"
+- name: "\U0001F1F7\U0001F1FA 038181-122523-俄罗斯"
   type: 'vless'
   server: '185.40.153.191'
   port: 443
@@ -241,7 +153,7 @@ proxies:
     short-id: 'EeEFB5bF'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1EF\U0001F1F5 038182-122520-日本"
+- name: "\U0001F1EF\U0001F1F5 038182-122523-日本"
   type: 'vless'
   server: '38.180.29.180'
   port: 443
@@ -263,7 +175,7 @@ proxies:
     short-id: '5281ACDe'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1F9\U0001F1F7 038471-122520-土耳其"
+- name: "\U0001F1F9\U0001F1F7 038471-122523-土耳其"
   type: 'vless'
   server: '78.135.89.148'
   port: 443
@@ -285,7 +197,7 @@ proxies:
     short-id: '4b4a1a3c'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1FF 038479-122520-捷克"
+- name: "\U0001F1E8\U0001F1FF 038479-122523-捷克"
   type: 'vless'
   server: '199.232.196.204'
   port: 80
@@ -307,7 +219,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1F9\U0001F1F7 038484-122520-土耳其"
+- name: "\U0001F1F9\U0001F1F7 038484-122523-土耳其"
   type: 'vless'
   server: 'tur.kitten-tube.com'
   port: 443
@@ -329,29 +241,29 @@ proxies:
     short-id: '4b4a1a3c'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E6\U0001F1F7 038486-122520-阿根廷"
+- name: "\U0001F1E9\U0001F1EA 038485-122523-德国"
   type: 'vless'
-  server: 'arg.kitten-tube.com'
+  server: 'cpanel3.sassanidempire.com'
   port: 443
-  uuid: 'ce7b5e36-a3a0-4f61-af4d-6ca132f892c5'
+  uuid: 'fcf99985-147b-4c71-c3f2-f448e5a379f1'
   alterid: 0
-  servername: 'apple.com'
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
+  servername: 'cpanel3.sassanidempire.com'
+  network: 'ws'
+  flow: ''
   client-fingerprint: 'chrome'
   skip-cert-verify: true
   cipher: 
   tls: true
   ws-opts:
-    path: ''
+    path: '/ws'
     headers:
-      host: ''
+      host: 'cpanel3.sassanidempire.com'
   reality-opts:
-    public-key: 'e1ifzzgyM_sX1svru9athNSNkT-LgdQ4SmQ3q5gjAVQ'
-    short-id: 'b3bE8FD2'
+    public-key: ''
+    short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038492-122520-德意志联邦共和国"
+- name: "\U0001F1E9\U0001F1EA 038492-122523-德意志联邦共和国"
   type: 'vless'
   server: '91.107.169.6'
   port: 443
@@ -373,51 +285,7 @@ proxies:
     short-id: '7eb399485bae4ba1'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038514-122520-德国"
-  type: 'vless'
-  server: '188.245.228.234'
-  port: 8080
-  uuid: '1525965a-dd50-4df6-b63d-ef4bb7685926'
-  alterid: 0
-  servername: ''
-  network: 'grpc'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: '/@BTG_v2ray-------@BTG_v2ray-------@BTG_v2ray-------@BTG_v2ray-------@BTG_v2ray-------@BTG_v2ray-------@BTG_v2ray'
-- name: "\U0001F1E8\U0001F1FF 038680-122520-捷克"
-  type: 'vless'
-  server: 'Fastly.net'
-  port: 80
-  uuid: 'bca5c473-b731-55a3-b672-7e734b641fd0'
-  alterid: 0
-  servername: ''
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: ''
-    headers:
-      host: 'Join-E.L.i.V.2.R.A.Y.net'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1EF\U0001F1F5 038716-122520-日本"
+- name: "\U0001F1EF\U0001F1F5 038716-122523-日本"
   type: 'vless'
   server: '167.82.85.155'
   port: 80
@@ -439,7 +307,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038740-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 038740-122523-德国"
   type: 'vless'
   server: '45.63.117.50'
   port: 443
@@ -461,7 +329,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038744-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 038744-122523-德国"
   type: 'vless'
   server: '5.75.148.3'
   port: 8080
@@ -483,13 +351,13 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1FF 038753-122520-捷克"
+- name: "\U0001F1FA\U0001F1F8 038745-122523-美国"
   type: 'vless'
-  server: '151.101.1.6'
+  server: '104.22.52.235'
   port: 80
-  uuid: 'bca5c473-b731-55a3-b672-7e734b641fd0'
+  uuid: 'b5cdabf0-e048-4fa2-90da-9379b1a4926e'
   alterid: 0
-  servername: ''
+  servername: 'cc.ailicf.us.kg'
   network: 'ws'
   flow: ''
   client-fingerprint: ''
@@ -497,24 +365,24 @@ proxies:
   cipher: 
   tls: false
   ws-opts:
-    path: ''
+    path: '/b5cdabf0-e04'
     headers:
-      host: 'Join-E.L.i.V.2.R.A.Y.net'
+      host: 'cc.ailicf.us.kg'
   reality-opts:
     public-key: ''
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038762-122520-德国"
+- name: "\U0001F1EC\U0001F1E7 038771-122523-英国"
   type: 'vless'
-  server: '23.88.56.245'
+  server: '57.128.178.253'
   port: 443
-  uuid: 'c60c0f0b-4dc4-4c04-8449-9d41df45ea25'
+  uuid: '24f7f8e5-dbe5-4cde-e018-2b74a00b6d69'
   alterid: 0
-  servername: 'yahoo.com'
+  servername: 'en.linceedab.com'
   network: 'tcp'
   flow: ''
-  client-fingerprint: 'random'
+  client-fingerprint: 'chrome'
   skip-cert-verify: true
   cipher: 
   tls: true
@@ -523,250 +391,11 @@ proxies:
     headers:
       host: ''
   reality-opts:
-    public-key: '9qFFcjVqhbLYJzLZ9lAd59YCh-AsyRNzsS2z1OkwChM'
-    short-id: '2a8d2703b2'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F5\U0001F1F1 038776-122520-波兰"
-  type: 'vless'
-  server: 'python.org'
-  port: 80
-  uuid: 'e19fb179-e8bc-5f8a-91cc-57646cf20984'
-  alterid: 0
-  servername: ''
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: ''
-    headers:
-      host: '0-ELi-V2RAY.COM'
-  reality-opts:
     public-key: ''
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 038793-122520-中国"
-  type: 'vless'
-  server: '162.159.0.33'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1F0 038796-122520-丹麦"
-  type: 'vless'
-  server: '104.18.10.143'
-  port: 443
-  uuid: '834ceabf-2853-4059-a167-5ffda883115d'
-  alterid: 0
-  servername: 'server22.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/TG-AiLuMao/'
-    headers:
-      host: 'server22.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 038812-122520-中国"
-  type: 'vless'
-  server: '172.67.70.100'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 038847-122520-中国"
-  type: 'vless'
-  server: '162.159.44.244'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 038863-122520-中国"
-  type: 'vless'
-  server: '172.64.34.133'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038868-122520-德国"
-  type: 'vless'
-  server: '159.69.108.8'
-  port: 41826
-  uuid: 'a1c1b0de-d079-4ae3-b984-0d512f473506'
-  alterid: 0
-  servername: 'yahoo.com'
-  network: 'tcp'
-  flow: ''
-  client-fingerprint: 'random'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: '0br3Gz5qvnMIyErJOpXsD60zfD3TVt_MrbpJPnaVDjQ'
-    short-id: '89ad0e1f74'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 038870-122520-德国"
-  type: 'vless'
-  server: '195.85.59.161'
-  port: 443
-  uuid: '834ceabf-2853-4059-a167-5ffda883115d'
-  alterid: 0
-  servername: 'server22.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/TG-AiLuMao/'
-    headers:
-      host: 'server22.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F3\U0001F1F1 038872-122520-荷兰"
-  type: 'vless'
-  server: '195.133.11.229'
-  port: 43774
-  uuid: 'a8c69dd7-9d17-436e-b9ed-383846dbfbdf'
-  alterid: 0
-  servername: 'tutu.ru'
-  network: 'tcp'
-  flow: 'xtls-rprx-vision'
-  client-fingerprint: 'random'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: 'ZLAYpx5wkCanyDNjQO_-7kwg0K5e728t2FPD9fSZ4VE'
-    short-id: 'b9a9aba39ba5ab'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039127-122520-美国"
-  type: 'vmess'
-  server: '156.229.162.206'
-  port: 8008
-  uuid: '3bb947a3-573b-4d5b-9a5c-43e6577a1730'
-  alterid: 0
-  servername: ''
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 'auto'
-  tls: false
-  ws-opts:
-    path: '/wada12222'
-    headers:
-      host: ''
-  reality-opts: 
-  grpc-opts: 
-- name: "\U0001F1EA\U0001F1EA 039128-122520-爱沙尼亚"
-  type: 'vless'
-  server: '147.45.60.193'
-  port: 38537
-  uuid: '0ae4ed54-f1bf-4381-a221-109475c342fa'
-  alterid: 0
-  servername: 'refersion.com'
-  network: 'xhttp'
-  flow: ''
-  client-fingerprint: 'random'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/'
-    headers:
-      host: ''
-  reality-opts:
-    public-key: '469v87_knKg5Qg6fus33S5NTOdjwXsHXUqXbqQRplQ4'
-    short-id: '92eb'
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1EA\U0001F1EA 039129-122520-爱沙尼亚"
+- name: "\U0001F1EA\U0001F1EA 039129-122523-爱沙尼亚"
   type: 'vless'
   server: '147.45.60.193'
   port: 42080
@@ -788,9 +417,31 @@ proxies:
     short-id: '92eb'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 039135-122520-中国"
+- name: "\U0001F1F9\U0001F1FC 039161-122523-台湾"
   type: 'vless'
-  server: '104.21.12.116'
+  server: '1.170.251.99'
+  port: 30341
+  uuid: '1a668915-d98f-4440-8bac-2c51d508f811'
+  alterid: 0
+  servername: 'addons.mozilla.org'
+  network: 'grpc'
+  flow: ''
+  client-fingerprint: 'chrome'
+  skip-cert-verify: true
+  cipher: 
+  tls: true
+  ws-opts:
+    path: ''
+    headers:
+      host: ''
+  reality-opts:
+    public-key: 'JKYZG1ImyL6B0TuQyE2XH0XWtX0pI6Cv0fe9ohsjcH0'
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: 'grpc'
+- name: "\U0001F1E8\U0001F1F3 039165-122523-中国"
+  type: 'vless'
+  server: '108.162.193.201'
   port: 443
   uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
   alterid: 0
@@ -810,29 +461,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1F1\U0001F1F9 039139-122520-立陶宛"
-  type: 'vless'
-  server: '162.159.152.2'
-  port: 443
-  uuid: '0954c6d7-f4a7-44ff-9a78-1939f9ba43d4'
-  alterid: 0
-  servername: 'server20.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/TG-AiLuMao/'
-    headers:
-      host: 'server20.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1EC\U0001F1E7 039167-122520-英国"
+- name: "\U0001F1EC\U0001F1E7 039167-122523-英国"
   type: 'vless'
   server: '216.24.57.207'
   port: 443
@@ -854,48 +483,26 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039168-122520-美国"
-  type: 'vless'
-  server: '108.165.152.38'
-  port: 8443
-  uuid: 'c9577b4c-d52d-4eea-b2ab-6f855fa18ae5'
-  alterid: 0
-  servername: 'vv.cscfwoker.fun'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/?ed'
-    headers:
-      host: 'vv.cscfwoker.fun'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F8\U0001F1EC 039170-122520-新加坡"
+- name: "\U0001F1F3\U0001F1F1 039169-122523-荷兰"
   type: 'vmess'
-  server: '103.106.229.29'
-  port: 47930
-  uuid: 'ec7dd23d-d03b-4262-9793-def9c849a01d'
+  server: '185.29.223.164'
+  port: 32718
+  uuid: 'c398fa1f-fac5-4d76-9452-f0aee44cbc66'
   alterid: 0
   servername: ''
-  network: 'ws'
+  network: 'tcp'
   flow: ''
   client-fingerprint: ''
   skip-cert-verify: true
   cipher: 'auto'
   tls: false
   ws-opts:
-    path: '/wada12222'
+    path: ''
     headers:
       host: ''
   reality-opts: 
   grpc-opts: 
-- name: "\U0001F1F3\U0001F1F1 039171-122520-荷兰"
+- name: "\U0001F1F3\U0001F1F1 039171-122523-荷兰"
   type: 'vless'
   server: '45.14.50.65'
   port: 8443
@@ -917,7 +524,7 @@ proxies:
     short-id: 'b4e8ea12a7'
   grpc-opts:
     grpc-service-name: 'JoinBadeChannel@antimeli'
-- name: "\U0001F1E9\U0001F1EA 039173-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 039173-122523-德国"
   type: 'vless'
   server: '5.75.148.3'
   port: 8443
@@ -939,26 +546,29 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039181-122520-美国"
-  type: 'vmess'
-  server: '104.21.83.108'
-  port: 443
-  uuid: '6c168fcc-2231-4f3b-8c1e-f6391692df4a'
+- name: "\U0001F1E9\U0001F1EA 039177-122523-德国"
+  type: 'vless'
+  server: '172.67.30.171'
+  port: 2096
+  uuid: '67caf0a6-2cab-4f2e-81f5-1664e4813709'
   alterid: 0
-  servername: ''
+  servername: 'server18.aibox.tv'
   network: 'ws'
   flow: ''
-  client-fingerprint: ''
+  client-fingerprint: 'chrome'
   skip-cert-verify: true
-  cipher: 'auto'
+  cipher: 
   tls: true
   ws-opts:
-    path: '/link'
+    path: '/TG-AiLuMao/'
     headers:
-      host: 'hms02.fxiaomi.sbs'
-  reality-opts: 
-  grpc-opts: 
-- name: "\U0001F1FA\U0001F1F8 039182-122520-美国"
+      host: 'server18.aibox.tv'
+  reality-opts:
+    public-key: ''
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1FA\U0001F1F8 039182-122523-美国"
   type: 'vless'
   server: '108.165.152.241'
   port: 2053
@@ -980,7 +590,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1EC\U0001F1E7 039183-122520-英国"
+- name: "\U0001F1EC\U0001F1E7 039183-122523-英国"
   type: 'vless'
   server: '199.34.228.48'
   port: 2087
@@ -1002,7 +612,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039184-122520-美国"
+- name: "\U0001F1FA\U0001F1F8 039184-122523-美国"
   type: 'vless'
   server: '167.68.4.10'
   port: 2096
@@ -1024,139 +634,7 @@ proxies:
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039185-122520-美国"
-  type: 'vless'
-  server: '104.16.42.209'
-  port: 80
-  uuid: 'be976fd2-e487-45b6-8f83-8d095c300fd8'
-  alterid: 0
-  servername: ''
-  network: 'ws'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: '/?ed'
-    headers:
-      host: 'cold-limit-d61-ppal03.sobeyov632.workers.dev'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 039186-122520-中国"
-  type: 'vless'
-  server: '172.67.30.171'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 039187-122520-德国"
-  type: 'vless'
-  server: '145.223.99.150'
-  port: 44026
-  uuid: '4f35ace3-ad40-4192-b9a3-a26c334f2da1'
-  alterid: 0
-  servername: ''
-  network: 'tcp'
-  flow: ''
-  client-fingerprint: ''
-  skip-cert-verify: true
-  cipher: 
-  tls: false
-  ws-opts:
-    path: ''
-    headers:
-      host: ''
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039188-122520-美国"
-  type: 'vless'
-  server: '104.16.239.254'
-  port: 443
-  uuid: '834ceabf-2853-4059-a167-5ffda883115d'
-  alterid: 0
-  servername: 'server22.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/TG-AiLuMao/'
-    headers:
-      host: 'server22.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E8\U0001F1F3 039189-122520-中国"
-  type: 'vless'
-  server: '162.159.2.9'
-  port: 443
-  uuid: '02be5968-d5c1-41f9-9515-3ea043b7aac3'
-  alterid: 0
-  servername: 'server19.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/ws/'
-    headers:
-      host: 'server19.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1F5\U0001F1F1 039190-122520-波兰"
-  type: 'vless'
-  server: '104.16.144.63'
-  port: 443
-  uuid: '834ceabf-2853-4059-a167-5ffda883115d'
-  alterid: 0
-  servername: 'server22.aibox.tv'
-  network: 'ws'
-  flow: ''
-  client-fingerprint: 'chrome'
-  skip-cert-verify: true
-  cipher: 
-  tls: true
-  ws-opts:
-    path: '/TG-AiLuMao/'
-    headers:
-      host: 'server22.aibox.tv'
-  reality-opts:
-    public-key: ''
-    short-id: ''
-  grpc-opts:
-    grpc-service-name: ''
-- name: "\U0001F1E9\U0001F1EA 039191-122520-德国"
+- name: "\U0001F1E9\U0001F1EA 039191-122523-德国"
   type: 'vless'
   server: '188.245.205.95'
   port: 11163
@@ -1178,32 +656,57 @@ proxies:
     short-id: 'f830f6'
   grpc-opts:
     grpc-service-name: ''
-- name: "\U0001F1FA\U0001F1F8 039192-122520-美国"
-  type: 'vmess'
-  server: '2.189.59.7'
-  port: 443
-  uuid: '05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d'
+- name: "\U0001F1E9\U0001F1EA 039194-122523-德国"
+  type: 'vless'
+  server: '151.101.194.165'
+  port: 80
+  uuid: '086d9b25-cd5f-4185-bcf9-e0ed000a7a5a'
   alterid: 0
   servername: ''
   network: 'ws'
   flow: ''
   client-fingerprint: ''
   skip-cert-verify: true
-  cipher: 'auto'
-  tls: true
+  cipher: 
+  tls: false
   ws-opts:
-    path: '/linkws'
+    path: '/?ed'
     headers:
-      host: 'obdii.cfd'
-  reality-opts: 
-  grpc-opts: 
-- name: "\U0001F1F1\U0001F1F9 039193-122520-立陶宛"
+      host: 'api.nhl111.ir'
+  reality-opts:
+    public-key: ''
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1E9\U0001F1EA 039195-122523-德国"
   type: 'vless'
-  server: 'greg.ns.cloudflare.com'
-  port: 443
-  uuid: '0954c6d7-f4a7-44ff-9a78-1939f9ba43d4'
+  server: '138.201.159.5'
+  port: 2053
+  uuid: 'c5f3e106-97c3-4fb8-f44d-d4c3e02b80f4'
   alterid: 0
-  servername: 'server20.aibox.tv'
+  servername: ''
+  network: 'ws'
+  flow: ''
+  client-fingerprint: ''
+  skip-cert-verify: true
+  cipher: 
+  tls: false
+  ws-opts:
+    path: '/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android/@Archive_Android?ed'
+    headers:
+      host: ''
+  reality-opts:
+    public-key: ''
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1F7\U0001F1FA 039196-122523-俄罗斯联邦"
+  type: 'vless'
+  server: '190.93.245.137'
+  port: 443
+  uuid: '51d85bb4-bb4e-491a-ac15-9c5f5633f1d0'
+  alterid: 0
+  servername: 'ftp.arashiphone.com.'
   network: 'ws'
   flow: ''
   client-fingerprint: 'chrome'
@@ -1211,11 +714,77 @@ proxies:
   cipher: 
   tls: true
   ws-opts:
-    path: '/TG-AiLuMao/'
+    path: '/?ed'
     headers:
-      host: 'server20.aibox.tv'
+      host: 'ftp.arashiphone.com.'
   reality-opts:
     public-key: ''
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1E9\U0001F1EA 039197-122523-德国"
+  type: 'vless'
+  server: '5.75.195.113'
+  port: 2053
+  uuid: 'bc59021a-2a06-420d-be07-3c37c88accb3'
+  alterid: 0
+  servername: 'www.refersion.com'
+  network: 'tcp'
+  flow: 'xtls-rprx-vision'
+  client-fingerprint: 'randomized'
+  skip-cert-verify: true
+  cipher: 
+  tls: true
+  ws-opts:
+    path: ''
+    headers:
+      host: ''
+  reality-opts:
+    public-key: 'b0OC5noocKvx2F4qwSuab-MTTRlW1Xk9kQC3gIb9Pzw'
+    short-id: '07ec0cdfec58feef'
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1E9\U0001F1EA 039198-122523-德国"
+  type: 'vless'
+  server: '188.245.216.207'
+  port: 3030
+  uuid: '19190e1d-ca8f-44ff-a00c-7eccbd66f337'
+  alterid: 0
+  servername: 'refersion.com'
+  network: 'tcp'
+  flow: ''
+  client-fingerprint: 'chrome'
+  skip-cert-verify: true
+  cipher: 
+  tls: true
+  ws-opts:
+    path: ''
+    headers:
+      host: ''
+  reality-opts:
+    public-key: '21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI'
+    short-id: ''
+  grpc-opts:
+    grpc-service-name: ''
+- name: "\U0001F1E9\U0001F1EA 039199-122523-德国"
+  type: 'vless'
+  server: 'JOIN-SVNTEAM.RU'
+  port: 443
+  uuid: 'SVNTEAM'
+  alterid: 0
+  servername: 'stackoverflow.com'
+  network: 'tcp'
+  flow: ''
+  client-fingerprint: 'chrome'
+  skip-cert-verify: true
+  cipher: 
+  tls: true
+  ws-opts:
+    path: ''
+    headers:
+      host: ''
+  reality-opts:
+    public-key: 'sNzQONYbGTHbI56Z12exjbx1cb7syIBdcf-jcPyX1RY'
     short-id: ''
   grpc-opts:
     grpc-service-name: ''
@@ -1235,245 +804,165 @@ proxy-groups:
   - "\U0001F3AF 自动回退"
   - "\U0001F30D 负载均衡"
   - 'DIRECT'
-  - "\U0001F1FA\U0001F1F8 036026-122520-美国"
-  - "\U0001F1FA\U0001F1F8 037014-122520-美国"
-  - "\U0001F1F9\U0001F1F7 037503-122520-土耳其"
-  - "\U0001F1EB\U0001F1F7 037849-122520-法国"
-  - "\U0001F1E9\U0001F1EA 037864-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038154-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038156-122520-德国"
-  - "\U0001F1E6\U0001F1EA 038173-122520-阿联酋"
-  - "\U0001F1F9\U0001F1F7 038177-122520-土耳其"
-  - "\U0001F1EE\U0001F1F1 038180-122520-以色列"
-  - "\U0001F1F7\U0001F1FA 038181-122520-俄罗斯"
-  - "\U0001F1EF\U0001F1F5 038182-122520-日本"
-  - "\U0001F1F9\U0001F1F7 038471-122520-土耳其"
-  - "\U0001F1E8\U0001F1FF 038479-122520-捷克"
-  - "\U0001F1F9\U0001F1F7 038484-122520-土耳其"
-  - "\U0001F1E6\U0001F1F7 038486-122520-阿根廷"
-  - "\U0001F1E9\U0001F1EA 038492-122520-德意志联邦共和国"
-  - "\U0001F1E9\U0001F1EA 038514-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038680-122520-捷克"
-  - "\U0001F1EF\U0001F1F5 038716-122520-日本"
-  - "\U0001F1E9\U0001F1EA 038740-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038744-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038753-122520-捷克"
-  - "\U0001F1E9\U0001F1EA 038762-122520-德国"
-  - "\U0001F1F5\U0001F1F1 038776-122520-波兰"
-  - "\U0001F1E8\U0001F1F3 038793-122520-中国"
-  - "\U0001F1E9\U0001F1F0 038796-122520-丹麦"
-  - "\U0001F1E8\U0001F1F3 038812-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038847-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038863-122520-中国"
-  - "\U0001F1E9\U0001F1EA 038868-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038870-122520-德国"
-  - "\U0001F1F3\U0001F1F1 038872-122520-荷兰"
-  - "\U0001F1FA\U0001F1F8 039127-122520-美国"
-  - "\U0001F1EA\U0001F1EA 039128-122520-爱沙尼亚"
-  - "\U0001F1EA\U0001F1EA 039129-122520-爱沙尼亚"
-  - "\U0001F1E8\U0001F1F3 039135-122520-中国"
-  - "\U0001F1F1\U0001F1F9 039139-122520-立陶宛"
-  - "\U0001F1EC\U0001F1E7 039167-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039168-122520-美国"
-  - "\U0001F1F8\U0001F1EC 039170-122520-新加坡"
-  - "\U0001F1F3\U0001F1F1 039171-122520-荷兰"
-  - "\U0001F1E9\U0001F1EA 039173-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039181-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039182-122520-美国"
-  - "\U0001F1EC\U0001F1E7 039183-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039184-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039185-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039186-122520-中国"
-  - "\U0001F1E9\U0001F1EA 039187-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039188-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039189-122520-中国"
-  - "\U0001F1F5\U0001F1F1 039190-122520-波兰"
-  - "\U0001F1E9\U0001F1EA 039191-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039192-122520-美国"
-  - "\U0001F1F1\U0001F1F9 039193-122520-立陶宛"
+  - "\U0001F1F9\U0001F1F7 037503-122523-土耳其"
+  - "\U0001F1EB\U0001F1F7 037849-122523-法国"
+  - "\U0001F1E9\U0001F1EA 037863-122523-德国"
+  - "\U0001F1E9\U0001F1EA 037864-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038154-122523-德国"
+  - "\U0001F1E6\U0001F1EA 038173-122523-阿联酋"
+  - "\U0001F1F7\U0001F1FA 038181-122523-俄罗斯"
+  - "\U0001F1EF\U0001F1F5 038182-122523-日本"
+  - "\U0001F1F9\U0001F1F7 038471-122523-土耳其"
+  - "\U0001F1E8\U0001F1FF 038479-122523-捷克"
+  - "\U0001F1F9\U0001F1F7 038484-122523-土耳其"
+  - "\U0001F1E9\U0001F1EA 038485-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038492-122523-德意志联邦共和国"
+  - "\U0001F1EF\U0001F1F5 038716-122523-日本"
+  - "\U0001F1E9\U0001F1EA 038740-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038744-122523-德国"
+  - "\U0001F1FA\U0001F1F8 038745-122523-美国"
+  - "\U0001F1EC\U0001F1E7 038771-122523-英国"
+  - "\U0001F1EA\U0001F1EA 039129-122523-爱沙尼亚"
+  - "\U0001F1F9\U0001F1FC 039161-122523-台湾"
+  - "\U0001F1E8\U0001F1F3 039165-122523-中国"
+  - "\U0001F1EC\U0001F1E7 039167-122523-英国"
+  - "\U0001F1F3\U0001F1F1 039169-122523-荷兰"
+  - "\U0001F1F3\U0001F1F1 039171-122523-荷兰"
+  - "\U0001F1E9\U0001F1EA 039173-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039177-122523-德国"
+  - "\U0001F1FA\U0001F1F8 039182-122523-美国"
+  - "\U0001F1EC\U0001F1E7 039183-122523-英国"
+  - "\U0001F1FA\U0001F1F8 039184-122523-美国"
+  - "\U0001F1E9\U0001F1EA 039191-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039194-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039195-122523-德国"
+  - "\U0001F1F7\U0001F1FA 039196-122523-俄罗斯联邦"
+  - "\U0001F1E9\U0001F1EA 039197-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039198-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039199-122523-德国"
 - name: '♻️ 自动选择'
   type: 'url-test'
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
   proxies:
-  - "\U0001F1FA\U0001F1F8 036026-122520-美国"
-  - "\U0001F1FA\U0001F1F8 037014-122520-美国"
-  - "\U0001F1F9\U0001F1F7 037503-122520-土耳其"
-  - "\U0001F1EB\U0001F1F7 037849-122520-法国"
-  - "\U0001F1E9\U0001F1EA 037864-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038154-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038156-122520-德国"
-  - "\U0001F1E6\U0001F1EA 038173-122520-阿联酋"
-  - "\U0001F1F9\U0001F1F7 038177-122520-土耳其"
-  - "\U0001F1EE\U0001F1F1 038180-122520-以色列"
-  - "\U0001F1F7\U0001F1FA 038181-122520-俄罗斯"
-  - "\U0001F1EF\U0001F1F5 038182-122520-日本"
-  - "\U0001F1F9\U0001F1F7 038471-122520-土耳其"
-  - "\U0001F1E8\U0001F1FF 038479-122520-捷克"
-  - "\U0001F1F9\U0001F1F7 038484-122520-土耳其"
-  - "\U0001F1E6\U0001F1F7 038486-122520-阿根廷"
-  - "\U0001F1E9\U0001F1EA 038492-122520-德意志联邦共和国"
-  - "\U0001F1E9\U0001F1EA 038514-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038680-122520-捷克"
-  - "\U0001F1EF\U0001F1F5 038716-122520-日本"
-  - "\U0001F1E9\U0001F1EA 038740-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038744-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038753-122520-捷克"
-  - "\U0001F1E9\U0001F1EA 038762-122520-德国"
-  - "\U0001F1F5\U0001F1F1 038776-122520-波兰"
-  - "\U0001F1E8\U0001F1F3 038793-122520-中国"
-  - "\U0001F1E9\U0001F1F0 038796-122520-丹麦"
-  - "\U0001F1E8\U0001F1F3 038812-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038847-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038863-122520-中国"
-  - "\U0001F1E9\U0001F1EA 038868-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038870-122520-德国"
-  - "\U0001F1F3\U0001F1F1 038872-122520-荷兰"
-  - "\U0001F1FA\U0001F1F8 039127-122520-美国"
-  - "\U0001F1EA\U0001F1EA 039128-122520-爱沙尼亚"
-  - "\U0001F1EA\U0001F1EA 039129-122520-爱沙尼亚"
-  - "\U0001F1E8\U0001F1F3 039135-122520-中国"
-  - "\U0001F1F1\U0001F1F9 039139-122520-立陶宛"
-  - "\U0001F1EC\U0001F1E7 039167-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039168-122520-美国"
-  - "\U0001F1F8\U0001F1EC 039170-122520-新加坡"
-  - "\U0001F1F3\U0001F1F1 039171-122520-荷兰"
-  - "\U0001F1E9\U0001F1EA 039173-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039181-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039182-122520-美国"
-  - "\U0001F1EC\U0001F1E7 039183-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039184-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039185-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039186-122520-中国"
-  - "\U0001F1E9\U0001F1EA 039187-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039188-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039189-122520-中国"
-  - "\U0001F1F5\U0001F1F1 039190-122520-波兰"
-  - "\U0001F1E9\U0001F1EA 039191-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039192-122520-美国"
-  - "\U0001F1F1\U0001F1F9 039193-122520-立陶宛"
+  - "\U0001F1F9\U0001F1F7 037503-122523-土耳其"
+  - "\U0001F1EB\U0001F1F7 037849-122523-法国"
+  - "\U0001F1E9\U0001F1EA 037863-122523-德国"
+  - "\U0001F1E9\U0001F1EA 037864-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038154-122523-德国"
+  - "\U0001F1E6\U0001F1EA 038173-122523-阿联酋"
+  - "\U0001F1F7\U0001F1FA 038181-122523-俄罗斯"
+  - "\U0001F1EF\U0001F1F5 038182-122523-日本"
+  - "\U0001F1F9\U0001F1F7 038471-122523-土耳其"
+  - "\U0001F1E8\U0001F1FF 038479-122523-捷克"
+  - "\U0001F1F9\U0001F1F7 038484-122523-土耳其"
+  - "\U0001F1E9\U0001F1EA 038485-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038492-122523-德意志联邦共和国"
+  - "\U0001F1EF\U0001F1F5 038716-122523-日本"
+  - "\U0001F1E9\U0001F1EA 038740-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038744-122523-德国"
+  - "\U0001F1FA\U0001F1F8 038745-122523-美国"
+  - "\U0001F1EC\U0001F1E7 038771-122523-英国"
+  - "\U0001F1EA\U0001F1EA 039129-122523-爱沙尼亚"
+  - "\U0001F1F9\U0001F1FC 039161-122523-台湾"
+  - "\U0001F1E8\U0001F1F3 039165-122523-中国"
+  - "\U0001F1EC\U0001F1E7 039167-122523-英国"
+  - "\U0001F1F3\U0001F1F1 039169-122523-荷兰"
+  - "\U0001F1F3\U0001F1F1 039171-122523-荷兰"
+  - "\U0001F1E9\U0001F1EA 039173-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039177-122523-德国"
+  - "\U0001F1FA\U0001F1F8 039182-122523-美国"
+  - "\U0001F1EC\U0001F1E7 039183-122523-英国"
+  - "\U0001F1FA\U0001F1F8 039184-122523-美国"
+  - "\U0001F1E9\U0001F1EA 039191-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039194-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039195-122523-德国"
+  - "\U0001F1F7\U0001F1FA 039196-122523-俄罗斯联邦"
+  - "\U0001F1E9\U0001F1EA 039197-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039198-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039199-122523-德国"
 - name: "\U0001F3AF 自动回退"
   type: 'fallback'
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
   proxies:
-  - "\U0001F1FA\U0001F1F8 036026-122520-美国"
-  - "\U0001F1FA\U0001F1F8 037014-122520-美国"
-  - "\U0001F1F9\U0001F1F7 037503-122520-土耳其"
-  - "\U0001F1EB\U0001F1F7 037849-122520-法国"
-  - "\U0001F1E9\U0001F1EA 037864-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038154-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038156-122520-德国"
-  - "\U0001F1E6\U0001F1EA 038173-122520-阿联酋"
-  - "\U0001F1F9\U0001F1F7 038177-122520-土耳其"
-  - "\U0001F1EE\U0001F1F1 038180-122520-以色列"
-  - "\U0001F1F7\U0001F1FA 038181-122520-俄罗斯"
-  - "\U0001F1EF\U0001F1F5 038182-122520-日本"
-  - "\U0001F1F9\U0001F1F7 038471-122520-土耳其"
-  - "\U0001F1E8\U0001F1FF 038479-122520-捷克"
-  - "\U0001F1F9\U0001F1F7 038484-122520-土耳其"
-  - "\U0001F1E6\U0001F1F7 038486-122520-阿根廷"
-  - "\U0001F1E9\U0001F1EA 038492-122520-德意志联邦共和国"
-  - "\U0001F1E9\U0001F1EA 038514-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038680-122520-捷克"
-  - "\U0001F1EF\U0001F1F5 038716-122520-日本"
-  - "\U0001F1E9\U0001F1EA 038740-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038744-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038753-122520-捷克"
-  - "\U0001F1E9\U0001F1EA 038762-122520-德国"
-  - "\U0001F1F5\U0001F1F1 038776-122520-波兰"
-  - "\U0001F1E8\U0001F1F3 038793-122520-中国"
-  - "\U0001F1E9\U0001F1F0 038796-122520-丹麦"
-  - "\U0001F1E8\U0001F1F3 038812-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038847-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038863-122520-中国"
-  - "\U0001F1E9\U0001F1EA 038868-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038870-122520-德国"
-  - "\U0001F1F3\U0001F1F1 038872-122520-荷兰"
-  - "\U0001F1FA\U0001F1F8 039127-122520-美国"
-  - "\U0001F1EA\U0001F1EA 039128-122520-爱沙尼亚"
-  - "\U0001F1EA\U0001F1EA 039129-122520-爱沙尼亚"
-  - "\U0001F1E8\U0001F1F3 039135-122520-中国"
-  - "\U0001F1F1\U0001F1F9 039139-122520-立陶宛"
-  - "\U0001F1EC\U0001F1E7 039167-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039168-122520-美国"
-  - "\U0001F1F8\U0001F1EC 039170-122520-新加坡"
-  - "\U0001F1F3\U0001F1F1 039171-122520-荷兰"
-  - "\U0001F1E9\U0001F1EA 039173-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039181-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039182-122520-美国"
-  - "\U0001F1EC\U0001F1E7 039183-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039184-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039185-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039186-122520-中国"
-  - "\U0001F1E9\U0001F1EA 039187-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039188-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039189-122520-中国"
-  - "\U0001F1F5\U0001F1F1 039190-122520-波兰"
-  - "\U0001F1E9\U0001F1EA 039191-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039192-122520-美国"
-  - "\U0001F1F1\U0001F1F9 039193-122520-立陶宛"
+  - "\U0001F1F9\U0001F1F7 037503-122523-土耳其"
+  - "\U0001F1EB\U0001F1F7 037849-122523-法国"
+  - "\U0001F1E9\U0001F1EA 037863-122523-德国"
+  - "\U0001F1E9\U0001F1EA 037864-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038154-122523-德国"
+  - "\U0001F1E6\U0001F1EA 038173-122523-阿联酋"
+  - "\U0001F1F7\U0001F1FA 038181-122523-俄罗斯"
+  - "\U0001F1EF\U0001F1F5 038182-122523-日本"
+  - "\U0001F1F9\U0001F1F7 038471-122523-土耳其"
+  - "\U0001F1E8\U0001F1FF 038479-122523-捷克"
+  - "\U0001F1F9\U0001F1F7 038484-122523-土耳其"
+  - "\U0001F1E9\U0001F1EA 038485-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038492-122523-德意志联邦共和国"
+  - "\U0001F1EF\U0001F1F5 038716-122523-日本"
+  - "\U0001F1E9\U0001F1EA 038740-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038744-122523-德国"
+  - "\U0001F1FA\U0001F1F8 038745-122523-美国"
+  - "\U0001F1EC\U0001F1E7 038771-122523-英国"
+  - "\U0001F1EA\U0001F1EA 039129-122523-爱沙尼亚"
+  - "\U0001F1F9\U0001F1FC 039161-122523-台湾"
+  - "\U0001F1E8\U0001F1F3 039165-122523-中国"
+  - "\U0001F1EC\U0001F1E7 039167-122523-英国"
+  - "\U0001F1F3\U0001F1F1 039169-122523-荷兰"
+  - "\U0001F1F3\U0001F1F1 039171-122523-荷兰"
+  - "\U0001F1E9\U0001F1EA 039173-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039177-122523-德国"
+  - "\U0001F1FA\U0001F1F8 039182-122523-美国"
+  - "\U0001F1EC\U0001F1E7 039183-122523-英国"
+  - "\U0001F1FA\U0001F1F8 039184-122523-美国"
+  - "\U0001F1E9\U0001F1EA 039191-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039194-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039195-122523-德国"
+  - "\U0001F1F7\U0001F1FA 039196-122523-俄罗斯联邦"
+  - "\U0001F1E9\U0001F1EA 039197-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039198-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039199-122523-德国"
 - name: "\U0001F30D 负载均衡"
   type: 'load-balance'
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
   proxies:
-  - "\U0001F1FA\U0001F1F8 036026-122520-美国"
-  - "\U0001F1FA\U0001F1F8 037014-122520-美国"
-  - "\U0001F1F9\U0001F1F7 037503-122520-土耳其"
-  - "\U0001F1EB\U0001F1F7 037849-122520-法国"
-  - "\U0001F1E9\U0001F1EA 037864-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038154-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038156-122520-德国"
-  - "\U0001F1E6\U0001F1EA 038173-122520-阿联酋"
-  - "\U0001F1F9\U0001F1F7 038177-122520-土耳其"
-  - "\U0001F1EE\U0001F1F1 038180-122520-以色列"
-  - "\U0001F1F7\U0001F1FA 038181-122520-俄罗斯"
-  - "\U0001F1EF\U0001F1F5 038182-122520-日本"
-  - "\U0001F1F9\U0001F1F7 038471-122520-土耳其"
-  - "\U0001F1E8\U0001F1FF 038479-122520-捷克"
-  - "\U0001F1F9\U0001F1F7 038484-122520-土耳其"
-  - "\U0001F1E6\U0001F1F7 038486-122520-阿根廷"
-  - "\U0001F1E9\U0001F1EA 038492-122520-德意志联邦共和国"
-  - "\U0001F1E9\U0001F1EA 038514-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038680-122520-捷克"
-  - "\U0001F1EF\U0001F1F5 038716-122520-日本"
-  - "\U0001F1E9\U0001F1EA 038740-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038744-122520-德国"
-  - "\U0001F1E8\U0001F1FF 038753-122520-捷克"
-  - "\U0001F1E9\U0001F1EA 038762-122520-德国"
-  - "\U0001F1F5\U0001F1F1 038776-122520-波兰"
-  - "\U0001F1E8\U0001F1F3 038793-122520-中国"
-  - "\U0001F1E9\U0001F1F0 038796-122520-丹麦"
-  - "\U0001F1E8\U0001F1F3 038812-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038847-122520-中国"
-  - "\U0001F1E8\U0001F1F3 038863-122520-中国"
-  - "\U0001F1E9\U0001F1EA 038868-122520-德国"
-  - "\U0001F1E9\U0001F1EA 038870-122520-德国"
-  - "\U0001F1F3\U0001F1F1 038872-122520-荷兰"
-  - "\U0001F1FA\U0001F1F8 039127-122520-美国"
-  - "\U0001F1EA\U0001F1EA 039128-122520-爱沙尼亚"
-  - "\U0001F1EA\U0001F1EA 039129-122520-爱沙尼亚"
-  - "\U0001F1E8\U0001F1F3 039135-122520-中国"
-  - "\U0001F1F1\U0001F1F9 039139-122520-立陶宛"
-  - "\U0001F1EC\U0001F1E7 039167-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039168-122520-美国"
-  - "\U0001F1F8\U0001F1EC 039170-122520-新加坡"
-  - "\U0001F1F3\U0001F1F1 039171-122520-荷兰"
-  - "\U0001F1E9\U0001F1EA 039173-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039181-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039182-122520-美国"
-  - "\U0001F1EC\U0001F1E7 039183-122520-英国"
-  - "\U0001F1FA\U0001F1F8 039184-122520-美国"
-  - "\U0001F1FA\U0001F1F8 039185-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039186-122520-中国"
-  - "\U0001F1E9\U0001F1EA 039187-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039188-122520-美国"
-  - "\U0001F1E8\U0001F1F3 039189-122520-中国"
-  - "\U0001F1F5\U0001F1F1 039190-122520-波兰"
-  - "\U0001F1E9\U0001F1EA 039191-122520-德国"
-  - "\U0001F1FA\U0001F1F8 039192-122520-美国"
-  - "\U0001F1F1\U0001F1F9 039193-122520-立陶宛"
+  - "\U0001F1F9\U0001F1F7 037503-122523-土耳其"
+  - "\U0001F1EB\U0001F1F7 037849-122523-法国"
+  - "\U0001F1E9\U0001F1EA 037863-122523-德国"
+  - "\U0001F1E9\U0001F1EA 037864-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038154-122523-德国"
+  - "\U0001F1E6\U0001F1EA 038173-122523-阿联酋"
+  - "\U0001F1F7\U0001F1FA 038181-122523-俄罗斯"
+  - "\U0001F1EF\U0001F1F5 038182-122523-日本"
+  - "\U0001F1F9\U0001F1F7 038471-122523-土耳其"
+  - "\U0001F1E8\U0001F1FF 038479-122523-捷克"
+  - "\U0001F1F9\U0001F1F7 038484-122523-土耳其"
+  - "\U0001F1E9\U0001F1EA 038485-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038492-122523-德意志联邦共和国"
+  - "\U0001F1EF\U0001F1F5 038716-122523-日本"
+  - "\U0001F1E9\U0001F1EA 038740-122523-德国"
+  - "\U0001F1E9\U0001F1EA 038744-122523-德国"
+  - "\U0001F1FA\U0001F1F8 038745-122523-美国"
+  - "\U0001F1EC\U0001F1E7 038771-122523-英国"
+  - "\U0001F1EA\U0001F1EA 039129-122523-爱沙尼亚"
+  - "\U0001F1F9\U0001F1FC 039161-122523-台湾"
+  - "\U0001F1E8\U0001F1F3 039165-122523-中国"
+  - "\U0001F1EC\U0001F1E7 039167-122523-英国"
+  - "\U0001F1F3\U0001F1F1 039169-122523-荷兰"
+  - "\U0001F1F3\U0001F1F1 039171-122523-荷兰"
+  - "\U0001F1E9\U0001F1EA 039173-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039177-122523-德国"
+  - "\U0001F1FA\U0001F1F8 039182-122523-美国"
+  - "\U0001F1EC\U0001F1E7 039183-122523-英国"
+  - "\U0001F1FA\U0001F1F8 039184-122523-美国"
+  - "\U0001F1E9\U0001F1EA 039191-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039194-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039195-122523-德国"
+  - "\U0001F1F7\U0001F1FA 039196-122523-俄罗斯联邦"
+  - "\U0001F1E9\U0001F1EA 039197-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039198-122523-德国"
+  - "\U0001F1E9\U0001F1EA 039199-122523-德国"
 rules:
 - 'GEOIP,CN,DIRECT'
 - "MATCH,\U0001F680 节点选择"
